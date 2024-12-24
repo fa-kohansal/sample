@@ -1,0 +1,25 @@
+.siblingOne{
+    background-color: crimson;
+    height: 200px;
+    color: whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.siblingTwo{
+    background-color:rgb(211, 74, 101);
+    height: 200px;
+    color: whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.counter{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+.counter> button{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
